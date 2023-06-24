@@ -41,3 +41,17 @@ let header = document.querySelector("header");
 window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
 });
+
+// Menu items
+
+var menuItems = document.getElementById("menuItems");
+
+menuItems.style.maxHeight = "0px";
+
+function Menu() {
+  if (menuItems.style.maxHeight == "0px") {
+    menuItems.style.maxHeight = "200px";
+  } else {
+    menuItems.style.maxHeight = "0px";
+  }
+}
