@@ -43,6 +43,7 @@ nav ul li {
   position: relative;
   margin: 0 40px;
 }
+
 nav a::after {
   content: "";
   width: 0;
@@ -57,7 +58,7 @@ nav a:hover::after,
 nav .home-active::after {
   width: 100%;
 }
-a {
+nav a {
   font-size: 1rem;
   color: white;
 }

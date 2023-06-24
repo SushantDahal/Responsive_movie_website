@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/eed0f9355e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+       
+        section{
+            background-color: rgb(236, 230, 230);
+            width: 100%;
+            height: 100vh;
+        
+            box-sizing: border-box;
+            /* font-family: 'Belanosima', sans-serif; */
+            
+        }
+        .container{
+            width: 220px;
+            background-color: white;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background: #e0e0e0;
+            box-shadow:  10px 10px 20px #747474,
+             -10px -10px 20px #ffffff;
+             border-radius: 20px;
+        }
+        .welcome{
+            margin-top: 40px;
+            margin-left: 20px;
+            font-size: 9px;
+            font-family: 'Belanosima', sans-serif; 
+        }
+        .welcome span{
+           font-size: 1.6rem;
+           font-family: 'Belanosima', sans-serif;        
+        }
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 20px;
+            flex-direction:column ;
+        }
+        .row span{
+            font-size: 9px;
+            font-family: 'Belanosima', sans-serif; 
+          
+        }
+        .row input{
+            outline: 0;
+            margin-top: 4px;
+            border: none;
+            font-size: 14px;
+            color: green;
+            border-radius: 10px;
+            background: #e0e0e0;
+            box-shadow:  5px 5px 10px #989898,
+             -5px -5px 10px #ffffff;
+             padding: 4px 0;
+             width: 100%;
+        }
+        .row .row-1{
+            margin: 10px 0;
+        }
+        .row .row-3{
+            margin: 10px 0;
+        }
+        button{
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            border: none;
+            padding: 5px 0;
+            background:rgb(233, 81, 131);
+            box-shadow:  5px 5px 10px #989898,
+             -5px -5px 10px #ffffff;
+             color: white;
+             font-family: 'Belanosima', sans-serif; 
+             transition: 0.6s;
+        }
+        button:hover{
+            transition: 0.2s;
+            background-color:rgb(31, 172, 228) ;
+            color: black;
+        }
+       .social{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 60px;
+       }
+       .social i{
+        font-size: 11px;
+        margin-right: 14px;
+        color: gray;
+        transition: 0.4;
+       }
+       .social i:hover{
+        color: rgb(31, 172, 228);
+       }
+       a{
+        background-color: rgb(233, 81, 131);
+        color: white;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-decoration: none;
+        border-radius: 20px;
+        padding: 4px 16px;
+       }
+       a:hover{
+        background-color: rgb(31, 172, 228);
+        color: black;
+       }
+       
+    </style>
+  </head>
+  <body>
+    <section>
+        <div>
+      <div class="container">
+        <div class="text">
+        <div class="welcome">
+          <p>Welcome<br><span>Sign Up</span></p>
+        </div>
+          <div class="row">
+          <form action="">
+            <div class="row-1">
+              <span>Email</span>
+              <input type="email" />
+            </div>
+            <div class="row-2">
+                <span>Number</span>
+              <input type="text" />
+            </div>
+            <div class="row-3">
+                <span>Address</span>
+              <input type="text" />
+            </div>
+
+            <button>Sign Up</button>
+          </form>
+        </div>
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-facebook " ></i>
+            <i class="fa-brands fa-twitter"></i>
+             <i class="fa-brands fa-instagram " ></i>
+      </div>
+     
+    </div>
+    <a href="index.html">Home</a>
+    </section>
+ 
+  </body>
+</html>
